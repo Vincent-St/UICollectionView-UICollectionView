@@ -3,7 +3,7 @@
 Putting a UICollectionView in a UITableViewCell in Swift (Pure Codes).
 
 ```
-![Screenshot](https://github.com/Vincent-St/UICollectionView-UICollectionView/blob/master/ScreenShot.png)
+![ScreenShot](https://github.com/Vincent-St/UICollectionView-UICollectionView/blob/master/ScreenShot.png)
 ```
 
 ## Build Requirement

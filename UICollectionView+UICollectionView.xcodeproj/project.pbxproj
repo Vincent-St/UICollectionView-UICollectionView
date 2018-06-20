@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3731AB0F20DA915D00381A31 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3731AB0E20DA915D00381A31 /* LICENSE */; };
 		3731AB1120DA919400381A31 /* ScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3731AB1020DA919400381A31 /* ScreenShot.png */; };
-		3773A8E520DA958100085884 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3773A8E420DA958100085884 /* README.md */; };
+		3773A8E720DA96A100085884 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3773A8E620DA96A100085884 /* README.md */; };
 		37A1505A20398AED007AEC9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1505920398AED007AEC9D /* AppDelegate.swift */; };
 		37A1505C20398AED007AEC9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1505B20398AED007AEC9D /* ViewController.swift */; };
 		37A1506220398AED007AEC9D /* AppStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37A1506020398AED007AEC9D /* AppStore.xcdatamodeld */; };
@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		3731AB0E20DA915D00381A31 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3731AB1020DA919400381A31 /* ScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot.png; sourceTree = "<group>"; };
-		3773A8E420DA958100085884 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3773A8E620DA96A100085884 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		37A1505620398AED007AEC9D /* UICollectionView+UICollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UICollectionView+UICollectionView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A1505920398AED007AEC9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37A1505B20398AED007AEC9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		37A1504D20398AED007AEC9D = {
 			isa = PBXGroup;
 			children = (
-				3773A8E420DA958100085884 /* README.md */,
+				3773A8E620DA96A100085884 /* README.md */,
 				3731AB1020DA919400381A31 /* ScreenShot.png */,
 				3731AB0E20DA915D00381A31 /* LICENSE */,
 				37FFD01920DA545B00A616C5 /* Default-568h@2x.png */,
@@ -141,7 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3773A8E520DA958100085884 /* README.md in Resources */,
+				3773A8E720DA96A100085884 /* README.md in Resources */,
 				3731AB1120DA919400381A31 /* ScreenShot.png in Resources */,
 				37A1506720398AED007AEC9D /* LaunchScreen.storyboard in Resources */,
 				37A1506420398AED007AEC9D /* Assets.xcassets in Resources */,
