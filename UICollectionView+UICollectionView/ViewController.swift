@@ -9,8 +9,8 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
     
     let firstCellId = "cellfirstCellIdId"
     
-    var appCategories: [AppCategory]? 
-
+    var appCategories: [AppCategory]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         appCategories = AppCategory.sampleAppCategories()
@@ -25,7 +25,7 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
         navigationController?.navigationBar.prefersLargeTitles = true
     }
     
-
+    
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: firstCellId, for: indexPath) as! CategoryCell
         cell.appCategory = appCategories?[indexPath.item]
@@ -42,10 +42,10 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
     
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: view.frame.width, height: 300)
+        return CGSize(width: view.frame.width, height: view.frame.width * 4 / 5)
     }
-
-
+    
+    
 }
 
 

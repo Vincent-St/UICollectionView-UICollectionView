@@ -17,7 +17,7 @@ class CategoryCell: UICollectionViewCell, UICollectionViewDataSource, UICollecti
     }
     
     let secondCellId = "secondCellId"
-   
+    
     
     let appsCollectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -59,7 +59,7 @@ class CategoryCell: UICollectionViewCell, UICollectionViewDataSource, UICollecti
         addSubview(firstChapterLabel)
         firstChapterLabel.leftAnchor.constraint(equalTo: appsCollectionView.leftAnchor, constant: 16).isActive = true
         firstChapterLabel.rightAnchor.constraint(equalTo: appsCollectionView.rightAnchor, constant: -16).isActive = true
-        firstChapterLabel.topAnchor.constraint(equalTo: self.topAnchor, constant: 24).isActive = true
+        firstChapterLabel.bottomAnchor.constraint(equalTo: appsCollectionView.topAnchor, constant: -16).isActive = true
         
     }
     
@@ -86,7 +86,7 @@ class CategoryCell: UICollectionViewCell, UICollectionViewDataSource, UICollecti
     
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: frame.height, height: frame.height)
+        return CGSize(width: frame.width * 4 / 5, height: frame.height * 4 / 5)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
@@ -120,7 +120,7 @@ class AppCell: UICollectionViewCell {
         return iv
     }()
     
-  
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -129,8 +129,8 @@ class AppCell: UICollectionViewCell {
         addSubview(photoImageView)
         photoImageView.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 16).isActive = true
         photoImageView.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -16).isActive = true
-        photoImageView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -36).isActive = true
-        photoImageView.topAnchor.constraint(equalTo: self.topAnchor, constant: 36).isActive = true
+        photoImageView.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: 0).isActive = true
+        photoImageView.topAnchor.constraint(equalTo: self.topAnchor, constant: 0).isActive = true
         
         
         
@@ -138,7 +138,7 @@ class AppCell: UICollectionViewCell {
     }
     
     
-        
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
